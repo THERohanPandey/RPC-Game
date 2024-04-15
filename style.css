@@ -1,0 +1,79 @@
+/* Reset default margin and padding for all elements and center text */
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Styling for the heading */
+h1 {
+  background-color: black;
+  color: white;
+  height: 5rem;
+  line-height: 5rem;
+}
+
+/* Styling for the game choices */
+.choice {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for hover effect on game choices */
+.choice:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  background-color: rgb(161, 0, 0);
+}
+
+/* Styling for images inside game choices */
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Styling for the container of game choices */
+.choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
+}
+
+/* Styling for the score board */
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 3rem;
+  gap: 5rem;
+}
+
+/* Styling for user and computer scores */
+#user-score,
+#comp-score {
+  font-size: 4rem;
+}
+
+/* Styling for the message container */
+.msg-container {
+  margin-top: 5rem;
+}
+
+/* Styling for the message text */
+#msg {
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  display: inline;
+}

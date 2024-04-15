@@ -1,39 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <!-- Metadata -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title of the page -->
   <title>Rock Paper Scissors Game</title>
+  <!-- Link to external stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+  <!-- Heading of the game -->
   <h1>Rock Paper Scissors</h1>
+  <!-- Container for game choices -->
   <div class="choices">
+    <!-- Choice for rock -->
     <div class="choice" id="rock">
+      <!-- Image for rock -->
       <img src="images/rock.png">
     </div>
+    <!-- Choice for paper -->
     <div class="choice" id="paper">
+      <!-- Image for paper -->
       <img src="images/paper.png">
     </div>
+    <!-- Choice for scissors -->
     <div class="choice" id="scissors">
+      <!-- Image for scissors -->
       <img src="images/scissors.png">
     </div>
   </div>
-<div class="score-board">
-  <div class="score">
-    <p id="user-score">0</p>
-    <p>You</p>
+  <!-- Container for user and computer scores -->
+  <div class="score-board">
+    <!-- User score -->
+    <div class="score">
+      <p id="user-score">0</p>
+      <p>You</p>
+    </div>
+    <!-- Computer score -->
+    <div class="score">
+      <p id="comp-score">0</p>
+      <p>Comp</p>
+    </div>
   </div>
-  <div class="score">
-    <p id="comp-score">0</p>
-    <p>Comp</p>
+  <!-- Container for game messages -->
+  <div class="msg-container">
+    <p id="msg">Play your move</p>
   </div>
-</div>
-
-<div class="msg-container">
-  <p id="msg">Play your move</p>
-</div>
-
+  <!-- Script to link the JavaScript file -->
   <script src="app.js"></script>
 </body>
+
 </html>
